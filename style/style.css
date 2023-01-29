@@ -19,17 +19,17 @@ body {
 /* lado direito */
 
 .right-side {
-    margin: 50px;
+    margin-left: 50px;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .article-description {
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
 }
 
 .article-description p {
@@ -45,22 +45,14 @@ body {
 }
 
 .social-icons {
-    width: 100px;
     height: 40px;
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .social-icons .fa-brands {
    padding: 10px;
-}
-
-.social-container {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .register-btn {
